@@ -1,0 +1,187 @@
+/* IMPORTED FONTS ARE HERE */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); 
+@font-face {
+    font-family: gesego;
+    src: url("fonts/Gesegotrial.otf");
+}   
+    
+/*Body design  */
+body {
+    margin: 0;
+    padding: 0;
+    background: #e9ecef;
+}
+
+/* container design */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    flex-direction: column;
+}
+/* top portion design */
+.top-portion{
+    /* For Design */
+    background: #6943FF;
+    width: 700px;
+    height: 250px;
+    margin: 10px;
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* For font */
+    color: #FFFFFF;
+    text-align: center;
+    font-style: normal;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.04em;
+}
+/* Input and border design */
+.border {
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid #B295FF;
+    
+    width: 60px;
+    height: 55px;
+    margin-bottom: 10px;
+}
+
+#input-el {
+    background-color: inherit;
+    position: absolute;
+    left: -50px;
+    margin-top: 5px;
+
+    width: 150px;
+    height: 35px;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    border: none;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    
+}
+/* convertion button design */
+#convert-btn {
+    width: 150px;
+    height: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    line-height: 24px;
+    color: #3D3D3D;
+}
+
+/* bottm design started */
+/* list content design */
+#list-content {
+    border: 1px solid black;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 4.68077px 0px 0px 0px;
+}
+#list-content-two {
+    border: 1px solid black;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 4.68077px 0px 0px 0px;
+}
+#list-content-three {
+    border: 1px solid black;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 4.68077px 0px 0px 0px;
+}
+/* text content design */
+.text-content {
+    padding-top: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #5A537B;
+
+}
+/* value design */
+#value-length, #value-volume, #value-mass {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #353535;
+
+}
+/* footer design */
+
+footer {
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+}
+/* theme design */
+.theme {
+    width: 700px;
+    height: 46px;
+}
+/* theme button design */
+#mode-btn {
+    width: 150px;
+    height: 50px;
+    background-color: #22223b;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #22223b ;
+}
+#mode:active {
+    background-color: #4a4e69;
+}
+/* tips design */
+#tips {
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+/* author content design */
+#author-content {
+    position: absolute;
+    left: 20px;
+    text-align: center;
+    border: 2px solid black;
+    background: blue;
+    padding: 0;
+}
+#Author {
+    font-family: gesego;
+    font-size: 20px;
+    text-indent: 5px;
+}
